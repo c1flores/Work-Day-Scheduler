@@ -10,7 +10,19 @@
 
 ### Big Picture: Create a dynamic calendar that allows the user to save events and easily tell which time blocks are in the past, present, and future. 
 
-#### Use Bootstrap to create hourly blocks with text input areas and save buttons.
+#### Use Bootstrap to create hourly blocks with text input areas and save buttons. Repeat hourly blocks to span business day length.
+```
+START
+
+  <div id="hour8" class="row time-block">
+            <div class="col-md-1 hour">
+                8 AM
+            </div>
+              <textarea class="col-md-10 description">
+              </textarea>
+              <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+```
 
 #### Display current day and time. 
 
