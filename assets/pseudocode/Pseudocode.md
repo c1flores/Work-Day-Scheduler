@@ -10,7 +10,7 @@
 
 ### Big Picture: Create a dynamic calendar that allows the user to save events and easily tell which time blocks are in the past, present, and future. 
 
-#### Use Bootstrap to create hourly blocks with text input areas and save buttons. Repeat hourly blocks to span business day length.
+#### Use Bootstrap to create hourly blocks with text input areas and save buttons in HTML. Repeat hourly blocks to span business day length.
 ```
 START
 
@@ -24,7 +24,12 @@ START
     </div>
 ```
 
-#### Display current day and time. 
+#### Display current day and time in header. 
+```
+Initialize variable currentDate and call Moment.js method to set variable equal to preferred format date
+
+Use jQuery .html method to set <p> element content in jumbotron header equal to currentDate 
+```
 
 #### Set a state of readiness to make the following steps in program available to run.
 
