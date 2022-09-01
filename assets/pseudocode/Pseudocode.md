@@ -2,9 +2,9 @@
 
 ## Objectives
 
-- Layout the foundation of logic behind the coding assessment
-- Establish naming conventions for variables to be used
-- Optimize control flow of algorithm
+- Layout the HTML Skeleton using Bootstrap
+- Layout the foundation of logic to be used to format time and save user-generated events
+- Optimize control flow of program
 
 ## Meta-Analysis of Approach
 
@@ -32,8 +32,18 @@ Use jQuery .html method to set <p> element content in jumbotron header equal to 
 ```
 
 #### Set a state of readiness to make the following steps in program available to run.
+```
+Use jQuery to set state of readiness for user to manipulate HTML document
+```
 
-#### Add a save button event listener to save user input to local storage.
+#### Add a save button event listener to save user-input to local storage.
+```
+Add event listener to save button so that it passes a function to retrieve user-generated events within respective hour block
+
+Initialize "event" and "hour" variables to pass in as key name and value in following Storage.setItem() method call
+
+Use Storage.setItem(hour,event) to properly save user-input into respective hour block to local storage
+```
 
 #### Create colorCode function to add background indicators to time blocks. 
 
