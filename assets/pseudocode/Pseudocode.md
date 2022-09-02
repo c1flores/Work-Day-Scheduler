@@ -45,7 +45,7 @@ Initialize "event" and "hour" variables to pass in as key name and value in foll
 Use Storage.setItem(hour,event) to properly save user-input into respective hour block to local storage
 ```
 
-#### Create colorCode function to add background indicators to time blocks. 
+#### Create timeUpdate function to add background color indicators to time blocks. 
 
 #### Retrieve items form local storage if any.
 
