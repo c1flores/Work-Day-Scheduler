@@ -46,8 +46,24 @@ Use Storage.setItem(hour,event) to properly save user-input into respective hour
 ```
 
 #### Create timeUpdate function to add background color indicators to time blocks. 
+```
+function timeUpdate()
 
-#### Retrieve items form local storage if any.
+Store current time in variable currentTime
 
-#### Run colorCode function to dynamically update background indicators for time blocks. 
+Loop over time blocks
 
+Parse hour block string to int, store in variable blockHour
+
+Provide conditional statements for three use cases (e.g., past, present, future)
+```
+#### Retrieve user-input from local storage if any.
+```
+Retrieve user-input from local storage for each hour to catch all possible input
+```
+#### Run timeUpdate function to dynamically update background indicators for time blocks. 
+```
+Run timeUpdate() function to dynamically update time blocks with color indicators upon application load
+
+END
+```
