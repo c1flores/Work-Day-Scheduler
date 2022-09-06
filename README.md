@@ -8,7 +8,7 @@ Scheduling is the art of planning your activities so that you can achieve your g
 With  HTML and CSS provided, I simply used Bootstrap to rapidly create a responsive interface with hourly time blocks and the Moment.js JavaScript library to manipulate and display time easily. I also used jQuery for facilitated HTML DOM transversal.  
 
 ## Live Application
-
+[Deployed Application](https://c1flores.github.io/Work-Day-Scheduler/)
 
 ## Screen Capture
 ![](https://user-images.githubusercontent.com/81927296/188736159-f49207ac-5e16-4687-98b1-22b8d3c3b04c.gif)
