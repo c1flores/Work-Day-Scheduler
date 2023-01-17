@@ -1,4 +1,16 @@
+<!-- omit in toc -->
 # Work-Day-Scheduler
+
+
+<!-- omit in toc -->
+## Table of Contents
+- [Overview](#overview)
+- [Why is Scheduling Important?](#why-is-scheduling-important)
+- [Technologies Used](#technologies-used)
+- [Screen Capture](#screen-capture)
+- [Live Application](#live-application)
+
+## Overview
 This repository is an exhibition of a simple calendar application. The user can use it to save events for each hour of the day.
 
 ## Why is Scheduling Important?
